@@ -8,7 +8,7 @@ After a thorough test of the site, it was observed that the task contained repea
 - [ ] Each Test requires a user to login and Logout 
 - [ ] A `beforeEach` and `afterEach` hooks were created to handle the login and logout process
 - [ ] For clarity, the login test was repeated as a sperate test.
-- [] The core tests focused on the viewing a non-empty inventory, adding to and removing from cart, as well as checkout.
+- [ ] The core tests focused on the viewing a non-empty inventory, adding to and removing from cart, as well as checkout.
 
 ---
 
@@ -41,7 +41,15 @@ To excute the test headlessly, run the following
 
 
 ---
+### Bonus
 
+---
+
+A pipeline config was added to ensure that the test can run in a pipeline for every time there's push or merge to the main branch. Below is a screenshot of a sample result from the GitHub Actions execution.
+
+![](pipeline-result.png)
+
+---
 
 ### Contributor
 ---
