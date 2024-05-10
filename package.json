@@ -1,0 +1,14 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "This is an assessment project for Duplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AYANLOYE SEGUN SAMSON",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
