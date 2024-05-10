@@ -1,13 +1,13 @@
 let el
 describe('Duplo Assessment', () => {
-  beforeEach(() => {
+  beforeEach('User can login successfully',() => {
     cy.fixture('element').then((sel) => {
       el = sel
       cy.Login()
     })
   })
 
-  afterEach(() => {
+  afterEach('User can logout successfully',() => {
     cy.Logout()
   })
 

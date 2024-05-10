@@ -7,6 +7,7 @@ After a thorough test of the site, it was observed that the task contained repea
 
 - [ ] Each Test requires a user to login and Logout 
 - [ ] A `beforeEach` and `afterEach` hooks were created to handle the login and logout process
+- [ ] For clarity, the login test was repeated as a sperate test.
 - [] The core tests focused on the viewing a non-empty inventory, adding to and removing from cart, as well as checkout.
 
 ---
